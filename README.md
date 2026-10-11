@@ -1,52 +1,162 @@
 # ✋ Hand Gesture Volume & Brightness Control
 
-A Python-based application that allows users to control system volume, screen brightness, and window management using real-time hand gestures.
+<p align="center">
+  <b>Control System Volume and Screen Brightness Using Hand Gestures</b>
+  <br>
+  A Computer Vision Project Built with Python, OpenCV and MediaPipe.
+</p>
 
-## 📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv">
+  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange">
+  <img src="https://img.shields.io/badge/Project-College%20Final%20Year-purple">
+</p>
 
-This project uses computer vision and hand tracking to interact with system settings without a mouse or keyboard. It detects hand gestures through a webcam and performs actions based on finger positions.
+---
 
-## 🚀 Features
+## 🎓 Academic Project
 
-- 🔊 **Volume Control:** Control system volume using hand gestures.
-- 💡 **Brightness Control:** Adjust screen brightness using finger movements.
-- 🪟 **Window Management:** Maximize and minimize the active window using hand gestures.
-- ✋ **Real-Time Hand Tracking:** Detect and track hand landmarks through a webcam.
-- 📊 **FPS Display:** Display real-time processing speed.
-- 🎥 **Webcam Integration:** Capture hand movements using OpenCV.
+- **Project Type:** College Final-Year Project
+- **Degree:** B.Tech – Computer Science and Business Systems (CSBS)
+- **Developer:** Yash Patil
 
-## 🛠️ Technologies Used
+## 📌 About the Project
 
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
-- Pycaw
-- Screen Brightness Control
-- PyGetWindow
-- ctypes
+Hand Gesture Volume & Brightness Control is a Python-based computer vision application that allows users to control system volume and screen brightness using hand gestures.
+
+The application uses a webcam to detect and track hand movements in real time. OpenCV and MediaPipe handle hand tracking, while Python libraries control system volume and screen brightness.
+
+The main objective is to make computer interaction easier through touch-free hand gestures.
+
+## ✨ Features
+
+- 🔊 Control system volume using hand gestures
+- 💡 Adjust screen brightness
+- ✋ Real-time hand tracking using a webcam
+- 🎯 Hand landmark detection using MediaPipe
+- ⚡ Touch-free computer interaction
+- 🖥️ Simple and user-friendly application
 
 ## 📸 Project Screenshots
 
-### 1. Volume Control
+### 🔊 Volume Control
+
 ![Volume Control](phto1.png)
 
-### 2. Brightness Control
+### 💡 Brightness Control
+
 ![Brightness Control](phto2.png)
 
-### 3. Hand Gesture Detection
+### ✋ Hand Gesture Detection
+
 ![Hand Gesture Detection](phto3.png)
 
-## 💻 Requirements
+## 🛠️ Technologies Used
 
-- Windows 10 or Windows 11
-- Python 3.10 recommended
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| OpenCV | Webcam access and image processing |
+| MediaPipe | Hand detection and tracking |
+| NumPy | Numerical calculations |
+| Pycaw | System volume control |
+| Screen Brightness Control | Screen brightness adjustment |
+| PyGetWindow | Window management |
+
+## 💻 System Requirements
+
+- Python 3.10
+- Windows operating system
 - Webcam
-- Compatible screen brightness controls
+- Required Python libraries
 
-## ⚙️ Installation
+## ⚙️ Installation and Setup
 
 ### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/yashpatil9981/Hand-Gesture-Volume-Brightness-Control.git
+```
+
+### Step 2: Open the Project Folder
+
+```bash
+cd Hand-Gesture-Volume-Brightness-Control
+```
+
+### Step 3: Install the Required Libraries
+
+```bash
+pip install opencv-python mediapipe numpy pycaw comtypes screen-brightness-control pygetwindow
+```
+
+### Step 4: Run the Application
+
+```bash
+python "gesture with Brightness.py"
+```
+
+## 🎮 How to Use
+
+1. Install Python and the required libraries.
+2. Connect or enable your webcam.
+3. Run the Python application.
+4. Show your hand in front of the webcam.
+5. Perform the supported hand gestures.
+6. Control system volume and screen brightness in real time.
+
+## 📂 Project Structure
+
+```text
+Hand-Gesture-Volume-Brightness-Control/
+│
+├── gesture with Brightness.py
+├── HandTrackingModule.py
+├── phto1.png
+├── phto2.png
+├── phto3.png
+├── README.md
+└── .gitignore
+```
+
+## 🎯 Project Objectives
+
+- Develop a touch-free computer control system.
+- Implement real-time hand tracking using computer vision.
+- Control volume and brightness through hand gestures.
+- Explore practical applications of Python and MediaPipe.
+
+## 📚 Learning Outcomes
+
+- Python programming
+- Computer vision using OpenCV
+- Hand tracking using MediaPipe
+- Real-time image processing
+- Integration of Python libraries with system controls
+
+## ⚠️ Limitations
+
+- A working webcam is required.
+- Performance may depend on lighting conditions.
+- Some features are designed specifically for Windows.
+- Required libraries must be installed before running the application.
+
+## 👨‍💻 Author
+
+**Yash Patil**
+
+B.Tech – Computer Science and Business Systems (CSBS)
+
+[GitHub Profile](https://github.com/yashpatil9981)
+
+**Project Repository:**  
+[Hand Gesture Volume & Brightness Control](https://github.com/yashpatil9981/Hand-Gesture-Volume-Brightness-Control)
+
+---
+
+<p align="center">
+  ⭐ If you find this project interesting, consider giving it a star!
+  <br>
+  Made with ❤️ using Python
+</p>
