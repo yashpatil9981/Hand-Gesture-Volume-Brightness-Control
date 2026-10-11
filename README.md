@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv" alt="OpenCV">
   <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange" alt="MediaPipe">
-  <img src="https://img.shields.io/badge/Project-Final%20Year-purple" alt="Final Year Project">
 </p>
 
 ---
