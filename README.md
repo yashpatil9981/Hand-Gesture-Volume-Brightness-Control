@@ -37,6 +37,12 @@ The main objective is to make computer interaction easier through touch-free han
 - ⚡ Touch-free computer interaction
 - 🖥️ Simple and user-friendly application
 
+## 📄 Project Documentation
+
+Read or download the complete project overview, including the objectives, technologies, workflow, limitations, and future enhancements.
+
+📥 **[Download Project Overview (PDF)](Hand_Gesture_Volume_Brightness_Project_Overview.pdf)**
+
 ## 📸 Project Screenshots
 
 ### 🔊 Volume Control
@@ -112,9 +118,14 @@ Hand-Gesture-Volume-Brightness-Control/
 │
 ├── gesture with Brightness.py
 ├── HandTrackingModule.py
+├── VolumeHandControl.py
+├── gesture with window.py
+├── hand track module brightness.py
+├── hand track module window.py
 ├── phto1.png
 ├── phto2.png
 ├── phto3.png
+├── Hand_Gesture_Volume_Brightness_Project_Overview_English.pdf
 ├── README.md
 └── .gitignore
 ```
@@ -141,13 +152,20 @@ Hand-Gesture-Volume-Brightness-Control/
 - Some features are designed specifically for Windows.
 - Required libraries must be installed before running the application.
 
+## 🚀 Future Enhancements
+
+- Improve gesture recognition accuracy.
+- Add customizable gestures.
+- Improve performance under different lighting conditions.
+- Create a simple graphical user interface.
+
 ## 👨‍💻 Author
 
 **Yash Patil**
 
 B.Tech – Computer Science and Business Systems (CSBS)
 
-[GitHub Profile](https://github.com/yashpatil9981)
+[![GitHub](https://img.shields.io/badge/GitHub-yashpatil9981-black?logo=github)](https://github.com/yashpatil9981)
 
 **Project Repository:**  
 [Hand Gesture Volume & Brightness Control](https://github.com/yashpatil9981/Hand-Gesture-Volume-Brightness-Control)
